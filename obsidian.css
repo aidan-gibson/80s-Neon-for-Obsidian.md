@@ -72,7 +72,33 @@
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
 }
-
+/*.view-header {
+  display:none;
+}
+.content {
+  height: 110%;
+}*/
+.view-header-title-container::AFTER {
+	display: none;
+}
+/* bottom bar */
+/*
+.view-header {
+  visibility:hidden;
+}*/
+.status-bar:not(:hover) {
+  display: none;
+}
+/* Auto collapses side panels */
+.app-container.is-left-sidedock-collapsed .side-dock-ribbon.mod-left.is-collapsed, 
+.app-container.is-right-sidedock-collapsed .side-dock-ribbon.mod-right.is-collapsed {
+  display: none;
+} 
+.app-container.is-left-sidedock-collapsed .workspace-split.mod-left-split[style="width: 0px;"],
+.app-container.is-left-sidedock-collapsed .workspace-split.mod-right-split[style="width: 0px;"] {
+  margin-left: 0;
+  margin-right: 0;
+}
 /* 2. General UI */
 .side-dock-ribbon-tab,
 .side-dock-ribbon-action {
@@ -397,6 +423,16 @@ ul ul ul ol>li:not(.task-list-item)::before {
 /* 5.2. fixes for buttons */
 button.mod-warning {
   color: var(--text-normal);
+}
+
+ 
+/* Hides vault name */
+.titlebar-text {
+  display:none;
+}
+
+.status-bar-item:empty {
+	display: none;
 }
 
 /* 6. BONUS! CRT Scanlines and flicker! 
