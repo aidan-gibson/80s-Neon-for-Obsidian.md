@@ -1,3 +1,21 @@
+Changes on this fork:
+- Bottom status bar hidden
+- Vault name hidden
+- Side panels completely hidden (I activate via shortcut when I need them, also accessible via command pallet).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 80s Neon for Obsidian.md
 A retro-future 80s inspired theme for [Obsidian](https://obsidian.md/), compatible with Obsidian V0.5.0
 ![Screenshot](./screenshot.jpg)
