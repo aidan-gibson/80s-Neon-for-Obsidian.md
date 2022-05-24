@@ -1,3 +1,8 @@
+/* in-page search button fix */
+.document-search-buttons {
+  line-height: 0em;
+}
+
 /* Hides vault name */
 .titlebar-text {
   display:none;
