@@ -1,3 +1,27 @@
+*{
+  -webkit-font-smoothing:antialiased;
+}
+.titlebar {
+  border-bottom: 0px;
+
+}
+.view-header-title {
+  /* font-size: var(--font-text-size); */
+  font-size: calc(.85*var(--font-text-size));
+
+}
+
+.view-actions:hover {
+  display:flex;
+}
+/* .view-actions:not(:hover) {
+  display:none;
+} */
+/* get rid of close button, i use cmd+w
+.mod-close-leaf {
+  display: none;
+} */
+
 /* in-page search button fix */
 .document-search-buttons {
   line-height: 0em;
