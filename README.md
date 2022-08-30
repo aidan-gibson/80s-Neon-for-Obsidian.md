@@ -5,9 +5,13 @@ Changes on this fork:
 
 
 
+`ln -s theme.css /Users/aidangibson/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Ext\ Brain/.obsidian/themes/80sNeonFork.css`
+
+symlinked from here to there
 
 
 
+NOPE dont symlink it made all themes not work
 
 
 
