@@ -15,7 +15,7 @@ symlinked from here to there
 
 
 
-NOPE dont symlink it made all themes in folder not work not work
+NOPE dont symlink it made all themes in folder not work (known issue, Obsidian actually doesn't support symlinks. maybe try hard link??)
 
 
 
